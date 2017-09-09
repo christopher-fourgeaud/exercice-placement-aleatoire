@@ -10,7 +10,7 @@ function shuffle(array) {
 
 $.ajax({
     dataType: "json",
-    url : "http://spreadsheets.google.com/feeds/list/1-oYlvGP573O4ml4AzgapLhK_KoEqlfDIzvSnWz48_nQ/od6/public/values?alt=json",
+    url : "",
     //key=AIzaSyCg_T74YlCMxFZhPyZKMKDQM1BqzfFoFq8",
     success: function(data){
         var tableau_apprenants = data.feed.entry;
