@@ -7,10 +7,11 @@ function shuffle(array) {
         array[j] = x;
     }
 }
+$("#valider").click(function(){
 
 $.ajax({
     dataType: "json",
-    url : "",
+    url : "https://spreadsheets.google.com/feeds/list/" + $('#clef').val() + "/od6/public/values?alt=json",
     //key=AIzaSyCg_T74YlCMxFZhPyZKMKDQM1BqzfFoFq8",
     success: function(data){
         var tableau_apprenants = data.feed.entry;
@@ -25,3 +26,5 @@ $.ajax({
         alert("Echec de la connexion !");
     }
 });
+
+})

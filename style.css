@@ -1,7 +1,5 @@
-
 [id*="place"]{
 background-color: #D6EDA5;
-/* border: 2px solid black; */
 border-radius: 6px;
 text-align: center;
 }
@@ -12,14 +10,13 @@ body{
     font-weight: bold;
 }
 .image{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     margin: 0 auto;
 }
-/* Place du prof */
 #place-prof{
     background-color: #D6EDA5;
-    height: 150px;
+    height: 130px;
     border-style : solid;
     border-radius: 6px 6px 4px 4px;
     border-width: 4px 4px 4px 4px;
@@ -29,60 +26,19 @@ body{
     font-size: 30px;
     font-weight: bold;
 }
-
-/* TABLE HAUT-GAUCHE + HAUT DROIT */
-#place0, #place1 {
+.hautTable {
     border-style : solid;
     border-radius: 6px 6px 0px 0px;
     border-width: 4px 4px 0px 4px;
 }
-
-#place2, #place3 {
+.basTable {
     border-style : solid;
     border-radius: 0px 0px 6px 6px;
     border-width: 0px 4px 4px 4px;
 }
-
-/* TABLE MILLIEU GAUCHE + MILIEU DROIT */
-#place4, #place5 {
-    border-style : solid;
-    border-radius: 6px 6px 0px 0px;
-    border-width: 4px 4px 0px 4px;
-}
-#place7, #place8 {
-    border-style : solid;
-    border-radius: 0px 0px 6px 6px;
-    border-width: 0px 4px 4px 4px;
-}
-/* TABLE BAS-GAUCHE + BAS DROIT */
-#place9, #place10 {
-    border-style : solid;
-    border-radius: 6px 6px 0px 0px;
-    border-width: 4px 4px 0px 4px;
-}
-
-#place12, #place13 {
-    border-style : solid;
-    border-radius: 0px 0px 6px 6px;
-    border-width: 0px 4px 4px 4px;
-}
-
 /* Place de l'éxilé a droite */
 #place6 {
     border-style : solid;
     border-radius: 6px 6px 6px 6px;
     border-width: 2px 2px 2px 2px;
-}
-
-/* Place en bas a droite [HAUT] */
-#place11 {
-    border-style : solid;
-    border-radius: 6px 6px 0px 0px;
-    border-width: 4px 4px 0px 4px;
-}
-/* Place en bas a droite [BAS] */
-#place14 {
-    border-style : solid;
-    border-radius: 0px 0px 6px 6px;
-    border-width: 0px 4px 4px 4px;
 }
