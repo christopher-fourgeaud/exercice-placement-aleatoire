@@ -12,7 +12,6 @@ $("#valider").click(function(){
 $.ajax({
     dataType: "json",
     url : "https://spreadsheets.google.com/feeds/list/" + $('#clef').val() + "/od6/public/values?alt=json",
-    //key=AIzaSyCg_T74YlCMxFZhPyZKMKDQM1BqzfFoFq8",
     success: function(data){
         var tableau_apprenants = data.feed.entry;
         shuffle(tableau_apprenants);
